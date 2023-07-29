@@ -5,7 +5,7 @@ import Page2 from "./page2";
 import Header from "../componenets/Header";
 import Footer from "../componenets/Footer";
 import Page4 from "./Page4";
-import Page3 from "./Page3";
+// import Page3 from "./Page3";
 const Homepage = () => {
   return (
     <div>
@@ -48,7 +48,7 @@ const Homepage = () => {
         </div>
       </div>
       <Page2 />
-      <Page3/>
+      {/* <Page3/> */}
       <Page4 />
       <Footer />
     </div>
